@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #2563eb;
+  color: white;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.editor-toolbar {
+  margin-bottom: 10px;
+}
+
+.editor-toolbar button {
+  margin-right: 5px;
+}
+
+.ProseMirror {
+  min-height: 400px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.document-list {
+  list-style: none;
+  padding: 0;
+}
+
+.document-list li {
+  margin: 10px 0;
+}
+
+.document-list a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.document-list a:hover {
+  text-decoration: underline;
+}
