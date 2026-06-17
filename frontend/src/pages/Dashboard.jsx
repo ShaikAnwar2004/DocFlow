@@ -46,10 +46,12 @@ function Dashboard() {
 
     <ul className="document-list">
       {documents.map((doc) => (
-  <Link key={doc.id} to={`/editor/${doc.id}`}>
-    {doc.title}
-  </Link>
-))}
+        <li key={doc.id}>
+          <Link to={`/editor/${doc.id}`}>
+            {doc.title}
+          </Link>
+        </li>
+      ))}
     </ul>
   </div>
 );
