@@ -124,10 +124,10 @@ To remain within the assignment time limit, the following features were intentio
 ## Deployment Links
 
 Frontend:
-[Add Vercel URL Here]
+[https://doc-flow-omega.vercel.app/]
 
 Backend:
-[Add Render URL Here]
+[https://docflow-8wjc.onrender.com]
 
 Walkthrough Video:
 [Add Video URL Here]
