@@ -12,7 +12,7 @@ function FileUpload({ refresh }) {
     );
 
     await axios.post(
-      "http://localhost:8080/api/upload",
+      "https://docflow-8wjc.onrender.com/api/upload",
       formData
     );
 
