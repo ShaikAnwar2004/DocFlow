@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/documents";
+const API_URL = "https://docflow-8wjc.onrender.com/api/documents";
 
 export const getDocuments = () => axios.get(API_URL);
 
